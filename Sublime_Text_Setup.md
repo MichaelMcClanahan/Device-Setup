@@ -73,7 +73,7 @@ One of the best parts about Sublime Text is that you can add folders as a projec
   - In this case we use [cerner_tomcat] which I already have forked to my personal repo
 
     ```bash
-    git clone https://github.com/cerner/cerner_tomcat.git
+    git clone https://github.com/$USER/cerner_tomcat.git
     ```
 3. Open Sublime Text
 4. Project -> Add Folder to Project
