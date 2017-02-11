@@ -70,10 +70,10 @@ One of the best parts about Sublime Text is that you can add folders as a projec
     cd ~/cookbooks
     ```
 2. Clone something from your personal GitHub repository.
-  - In this case we use [ets_base_os] which I already have forked to my personal repo
+  - In this case we use [cerner_tomcat] which I already have forked to my personal repo
 
     ```bash
-    git clone https://github.cerner.com/$USER/ets_base_os.git
+    git clone https://github.com/$USER/cerner_tomcat.git
     ```
 3. Open Sublime Text
 4. Project -> Add Folder to Project
@@ -171,5 +171,5 @@ These updated settings do a couple things:
 [Package Control's website]: https://packagecontrol.io/installation#st3
 [Soda Theme]: https://github.com/buymeasoda/soda-theme
 [colour-schemes.zip]: http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip
-[ets_base_os]: https://github.cerner.com/ETS/ets_base_os
+[cerner_tomcat]: https://github.com/cerner/cerner_tomcat
 [Ruby best practices]: http://batsov.com/articles/2013/06/26/the-elements-of-style-in-ruby-number-1-maximum-line-length/
