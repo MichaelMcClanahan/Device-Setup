@@ -18,3 +18,10 @@ alias knife='BUNDLE_GEMFILE=~/.chef/Gemfile bundle exec knife'
 
 # https://github.com/rbenv/rbenv
 eval "$(rbenv init -)"
+
+# Docker Command Completion
+## https://docs.docker.com/machine/completion/
+## https://docs.docker.com/compose/completion/
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+. $(brew --prefix)/etc/bash_completion
+fi
